@@ -4,15 +4,26 @@
     padding: 0%;
     box-sizing: border-box;
 }
+/* general style  */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 
+/* Herder  */
 header {
     background-color: aquamarine;
 }
-
+/* Main  */
 main {
     background-color: bisque;
+    /* make main to take as much as space as possible to push the footer all the way down */
+    flex: 1 0 auto;
 }
-
+/* Footer  */
 footer {
     background-color: coral;
+
 }
