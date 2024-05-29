@@ -145,6 +145,12 @@ main {
     max-height: 300px;
 }
 
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer  */
 #social-networks {
     text-align: center;
