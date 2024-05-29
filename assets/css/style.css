@@ -81,11 +81,18 @@ nav {
 
 /* Main  */
 main {
-    background-color: bisque;
     /* make main to take as much as space as possible to push the footer all the way down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* hero section */
+#hero {
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+}
+
 /* Footer  */
 #social-networks {
     text-align: center;
