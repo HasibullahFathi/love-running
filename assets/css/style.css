@@ -151,6 +151,28 @@ main {
     align-items: center;
 }
 
+/* meetup section  */
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center / cover;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#times  div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* this will expand if the screen is smaller than 400px and wrap all the page  */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* add a border for the meetup section */
+    border: #ffffff solid 2px;
+}
+
+#times  h3 {
+    color: #fafafa;
+}
 /* Footer  */
 #social-networks {
     text-align: center;
