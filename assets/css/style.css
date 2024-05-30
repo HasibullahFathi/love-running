@@ -191,7 +191,6 @@ main {
 
 /* Seign-up page  */
 
-/* Main content */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -216,7 +215,7 @@ main {
     padding: 30px;
 }
 
-#signup h2 {
+#signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -239,15 +238,6 @@ main {
     align-items: center;
 }
 
-/* Footer  */
-#social-networks {
-    text-align: center;
-    display: flex;
-    padding: 20px 0;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
 .join-button{
     margin-top: 20px;
     padding: 15px 32px;
@@ -255,6 +245,15 @@ main {
     background-color: #453b1b;
     color: #fafafa;
     font-size: 100%;
+}
+
+/* Footer  */
+#social-networks {
+    text-align: center;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #social-networks i {
