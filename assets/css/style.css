@@ -222,7 +222,7 @@ main {
 }
 
 .text-input {
-   margin: 5px 0 20px;
+   margin: 5px 0 20px 0;
    height: 25px;
    padding: 0 5px;
    width: 100%;
@@ -232,6 +232,13 @@ main {
    border-radius: 2px;
 }
 
+.radio-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Footer  */
 #social-networks {
     text-align: center;
@@ -239,6 +246,15 @@ main {
     padding: 20px 0;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+.join-button{
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    background-color: #453b1b;
+    color: #fafafa;
+    font-size: 100%;
 }
 
 #social-networks i {
@@ -308,6 +324,21 @@ main {
     /* gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* sign up page  */
+
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        left: 10%;
+        top: 150px;
+        max-width: 400px;
     }
 }
 
